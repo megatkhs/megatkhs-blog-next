@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Inter:wght@400;600&display=swap");
+@import url("./colors.css");
+
+:root {
+  --max-width: 900px;
+  --font-family: "Inter", "BIZ UDPGothic", sans-serif;
+  --font-mono: ui-monospace, menlo, monaco, "Consolas", "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono",
+    "Droid Sans Mono", "Courier New", monospace;
+
+  /* サイズ */
+  --size-1: 5px;
+  --size-2: 10px;
+  --size-3: 15px;
+  --size-4: 20px;
+  --size-5: 25px;
+  --size-6: 35px;
+  --size-7: 45px;
+  --size-8: 65px;
+  --size-9: 80px;
+
+  /* 空白 */
+  --spacing-1: var(--size-1);
+  --spacing-2: var(--size-2);
+  --spacing-3: var(--size-3);
+  --spacing-4: var(--size-4);
+  --spacing-5: var(--size-5);
+  --spacing-6: var(--size-6);
+  --spacing-7: var(--size-7);
+  --spacing-8: var(--size-8);
+  --spacing-9: var(--size-9);
+}
+
+html {
+  --site-bg: var(--gray-base);
+
+  background: var(--site-bg);
+  color: var(--primary-text-contrast);
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  line-height: 1.8;
+
+  & ::selection {
+    background-color: var(--primary-text-contrast);
+    color: var(--gray-base);
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,10 @@
+.header {
+  display: grid;
+  gap: var(--spacing-1);
+  padding-block: var(--spacing-4);
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+}

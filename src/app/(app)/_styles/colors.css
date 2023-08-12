@@ -1,0 +1,98 @@
+@import url("@radix-ui/colors/cyan-alpha.css");
+@import url("@radix-ui/colors/cyan-dark-alpha.css");
+@import url("@radix-ui/colors/slate.css");
+@import url("@radix-ui/colors/slate-dark.css");
+@import url("@radix-ui/colors/red-alpha.css");
+@import url("@radix-ui/colors/red-dark-alpha.css");
+@import url("@radix-ui/colors/green-alpha.css");
+@import url("@radix-ui/colors/green-dark-alpha.css");
+@import url("@radix-ui/colors/yellow-alpha.css");
+@import url("@radix-ui/colors/yellow-dark-alpha.css");
+@import url("@radix-ui/colors/blue-alpha.css");
+@import url("@radix-ui/colors/blue-dark-alpha.css");
+
+:root {
+  /* プライマリー */
+  --primary-base: var(--cyan-a1);
+  --primary-bg-subtle: var(--cyan-a2);
+  --primary-bg: var(--cyan-a3);
+  --primary-bg-hover: var(--cyan-a4);
+  --primary-bg-active: var(--cyan-a5);
+  --primary-line: var(--cyan-a6);
+  --primary-border: var(--cyan-a7);
+  --primary-border-hover: var(--cyan-a8);
+  --primary-solid: var(--cyan-a9);
+  --primary-solid-hover: var(--cyan-a10);
+  --primary-text: var(--cyan-a11);
+  --primary-text-contrast: var(--cyan-a12);
+
+  /* グレースケール */
+  --gray-base: var(--slate-1);
+  --gray-bg-subtle: var(--slate-2);
+  --gray-bg: var(--slate-3);
+  --gray-bg-hover: var(--slate-4);
+  --gray-bg-active: var(--slate-5);
+  --gray-line: var(--slate-6);
+  --gray-border: var(--slate-7);
+  --gray-border-hover: var(--slate-8);
+  --gray-solid: var(--slate-9);
+  --gray-solid-hover: var(--slate-10);
+  --gray-text: var(--slate-11);
+  --gray-text-contrast: var(--slate-12);
+
+  /* エラー */
+  --error-base: var(--red-a1);
+  --error-bg-subtle: var(--red-a2);
+  --error-bg: var(--red-a3);
+  --error-bg-hover: var(--red-a4);
+  --error-bg-active: var(--red-a5);
+  --error-line: var(--red-a6);
+  --error-border: var(--red-a7);
+  --error-border-hover: var(--red-a8);
+  --error-solid: var(--red-a9);
+  --error-solid-hover: var(--red-a10);
+  --error-text: var(--red-a11);
+  --error-text-contrast: var(--red-a12);
+
+  /* 成功 */
+  --success-base: var(--green-a1);
+  --success-bg-subtle: var(--green-a2);
+  --success-bg: var(--green-a3);
+  --success-bg-hover: var(--green-a4);
+  --success-bg-active: var(--green-a5);
+  --success-line: var(--green-a6);
+  --success-border: var(--green-a7);
+  --success-border-hover: var(--green-a8);
+  --success-solid: var(--green-a9);
+  --success-solid-hover: var(--green-a10);
+  --success-text: var(--green-a11);
+  --success-text-contrast: var(--green-a12);
+
+  /* 警告 */
+  --warning-base: var(--yellow-a1);
+  --warning-bg-subtle: var(--yellow-a2);
+  --warning-bg: var(--yellow-a3);
+  --warning-bg-hover: var(--yellow-a4);
+  --warning-bg-active: var(--yellow-a5);
+  --warning-line: var(--yellow-a6);
+  --warning-border: var(--yellow-a7);
+  --warning-border-hover: var(--yellow-a8);
+  --warning-solid: var(--yellow-a9);
+  --warning-solid-hover: var(--yellow-a10);
+  --warning-text: var(--yellow-a11);
+  --warning-text-contrast: var(--yellow-a12);
+
+  /* 情報 */
+  --info-base: var(--blue-a1);
+  --info-bg-subtle: var(--blue-a2);
+  --info-bg: var(--blue-a3);
+  --info-bg-hover: var(--blue-a4);
+  --info-bg-active: var(--blue-a5);
+  --info-line: var(--blue-a6);
+  --info-border: var(--blue-a7);
+  --info-border-hover: var(--blue-a8);
+  --info-solid: var(--blue-a9);
+  --info-solid-hover: var(--blue-a10);
+  --info-text: var(--blue-a11);
+  --info-text-contrast: var(--blue-a12);
+}
